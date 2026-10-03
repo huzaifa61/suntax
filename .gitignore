@@ -38,8 +38,6 @@ tmp/
 output/
 
 # Environment files (never commit secrets)
-.env
-.env.local
 .env.*.local
 !.env.example
 !.env.local.example
@@ -55,7 +53,6 @@ Icon?
 ._*
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -70,3 +67,4 @@ yarn-debug.log
 # Uploaded files & local storage
 uploads/
 media/
+config.bat
